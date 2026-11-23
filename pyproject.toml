@@ -7,7 +7,9 @@ authors = [
     { name = "Zylex-Dev", email = "zylex.develop@mail.ru" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "kaggle>=2.2.5",
+]
 
 [project.scripts]
 cu-ml-project-w11 = "cu_ml_project_w11:main"
